@@ -92,6 +92,12 @@ main{
   
 }
 
+.section_images{
+  width: 700px;
+  height: 800px
+  ;
+}
+
 .section1_info{
   margin: 5rem;
   line-height: 1;
@@ -133,6 +139,11 @@ main{
   bottom: 100px;
 }
 
+.section_texti{
+  width: 750px;
+  height: 220px;
+}
+
 .section2{
  align-items: center;
  justify-items: center;
@@ -148,6 +159,17 @@ main{
  align-items: center;
  justify-items: center;
 
+}
+
+.section_icons1{
+  width: 60px;
+  height: 60px;
+
+}
+
+.section_icons2{
+  width: 600px;
+  height: 200px;
 }
 
 .section3{
@@ -174,7 +196,10 @@ main{
   margin-top: 2rem;
 }
 
-
+.image_banner2{
+  width: 100%;
+  height: 100%;
+}
 
 .section4 {
 display: flex;
@@ -215,6 +240,11 @@ font-family: "Archivo_Expanded-Regular", sans-serif;
   justify-content: center;
 }
 
+.imagen_molde{
+  width: 800px;
+  height: 500px;
+}
+
 .section4_text p{
   margin: 1rem;
   width: 60%;
@@ -252,6 +282,11 @@ footer {
   display: flex;
   
   gap: 0.5rem; 
+}
+
+.icons_redesfo{
+  width: 30px;
+  height: 30px;
 }
 
 .footer-icons {
@@ -335,7 +370,7 @@ footer {
   }
 
   .section3 div {
-    width: 90%;
+    width: 100%;
     margin: 1rem 0;
   }
 
@@ -412,15 +447,38 @@ footer {
     
   }
 
+  .section_images{
+    width: 270px;
+    height: 200px;
+  }
+
   .section1_info h2 {
     font-size: 1.8rem;
+  }
+
+  .section_tex{
+    position: relative;
+    width: 100%;
+    height: 220px
+  }
+
+  .section3{
+    text-align: center;
+  }
+
+  .section_texti{
+    width: 300px;
+    height: 120px;
   }
 
   .section1_info p {
     font-size: 0.9rem;
   }
 
-  
+  .section_icons2{
+    width: 350px;
+
+  }
 
   .section4_ns h2 {
     font-size: 2rem;
@@ -428,7 +486,15 @@ footer {
   }
 
   .section4_text p {
+    width: 60%;
     font-size: 0.9rem;
+    text-align: justify;
+
+  }
+
+  .imagen_molde{
+    width: 400px;
+    transform: rotate(90deg);
   }
 
   footer {

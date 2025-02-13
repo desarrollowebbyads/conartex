@@ -31,12 +31,14 @@ export default function Home() {
       <main className="body">
         <section className="Section1">
           <div className="section1_image">
-            <Image
+            {/*<Image
             src={"/Recurso-21.webp"}
+            
             width={700} 
             height={800} 
-            alt="Contartex" />
-          </div>
+            alt="Contartex" /> */}
+            <img src="/Recurso-21.webp" alt="banner1" className="section_images"/>
+          </div> 
 
           <div className="section1_s">
               <div className="section1_info">
@@ -51,35 +53,32 @@ export default function Home() {
           
         </section>
         <section className="section_tex">
-        <Image
-            src={"/Recurso-22.webp"}
-            width={750} 
-            height={220} 
-            alt="Contartex" />
+        
+          <img
+            src="/Recurso-22.webp"
+            className="section_texti"
+            alt="Contartex"
+          />
         </section>
 
         <section className="section2">
-        <Image
+        <img
           src={"/Recurso_4.svg"}
-          width={60} 
-          height={60} 
+          className="section_icons1"
           alt="Contartex_icon1"/>
-          <Image
+          <img
           src={"/Recurso_5.svg"}
-          width={60} 
-          height={60} 
+          className="section_icons1"
           alt="Contartex_icon2"/>
-          <Image
+          <img
           src={"/Recurso_6.svg"}
-          width={60} 
-          height={60} 
+          className="section_icons1"
           alt="Contartex_icon3"/>
           <p>100%</p>
           <h3 className="section2_">Hecho en Mde.</h3>
-          <Image
+          <img
           src={"/Recurso_7.svg"}
-          width={600} 
-          height={200} 
+          className="section_icons2"
           alt="Contartex_barras"/>
         </section>
 
@@ -97,20 +96,17 @@ export default function Home() {
           <p>Cumplimos siempre con los plazos acordados.</p></div>
         </section>
         <section className="sectionimage">
-          <Image
-          layoout="responsive"
-          src={"/Recurso-24.webp"}
-          width={1724} 
-          height={800} 
+          <img
+          src="/Recurso-24.webp"
+          className="image_banner2"
           alt="Contartex_barras"/>
         </section>
 
         <section className="section4">
           <div className="section4_ns">
-               <Image
-                  src={"/Recurso_8.svg"}
-                  width={800} 
-                  height={500} 
+               <img
+                  src="/Recurso_8.svg"
+                  className="imagen_molde"
                   alt="Contartex_barras"/>
                 <h2>NUESTROS SERVICIOS</h2>
           </div>
@@ -133,8 +129,8 @@ export default function Home() {
   
   <div className="footer-section footer-center">
     <div className="footer-icons">
-      <Image src="/Recurso-2.svg" width={30} height={30} alt="Facebook" />
-      <Image src="/Recurso-3.svg" width={30} height={30} alt="Instagram" />
+      <img src="/Recurso-2.svg" className="icons_redesfo" alt="Facebook" />
+      <img src="/Recurso-3.svg" className="icons_redesfo" alt="Instagram" />
     </div>
     <h3>Contáctanos</h3>
     <p>Carrera 50 # 25-127</p>
